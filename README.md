@@ -12,7 +12,7 @@
 CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ CY8C4125AXI-483
 
 
-|        CY8C4125AXI-483             |
+|CY8C4125AXI-483|   Product Specs    |
 | ------------- |:------------------:|
 | CPU Core      | ARM Cortex-M0      |
 | Flash (KB)    | 32                 |
