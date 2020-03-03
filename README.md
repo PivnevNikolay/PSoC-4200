@@ -11,6 +11,7 @@
 Данный набор поддерживает подключение к ПК через контроллер Cypress USB-Serial, который также используется для загрузки устройства PSoC 4 через UART с помощью инструмента Bootloader Software Host. 
 CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ CY8C4125AXI-483
 
+
 |        CY8C4125AXI-483             |
 | ------------- |:------------------:|
 | CPU Core      | ARM Cortex-M0      |
@@ -26,7 +27,7 @@ CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ CY
 
 [CY8C4125AXI-483 Product Specs](https://www.cypress.com/part/cy8c4125axi-483)
 
-##USB-Serial (CY7C6521x)
+## USB-Serial (CY7C6521x)
 CY8CKIT-049 предоставляет клиентам подключение к ПК через USB с использованием семейства Cypress USB-Serial (CY7C6521x). Устройство, используемое на CY8CKIT-049, является настраиваемым мостовым контроллером USB CY7C65211. Это устройство USB-Serial поддерживает конфигурации USB-UART, USB-GPIO, USB-I2C и USB-SPI.
 
 ## IDE
