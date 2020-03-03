@@ -1,0 +1,6 @@
+D:\PSoC\PSOC_CY8CKIT-049-41\002_7_segment_Led\002_7_segment_Led\002_7_segment_Led.cydsn\002_7_segment_Led.cyprj|79986076-4ce7-4b31-b1ba-25bf8856f6e7
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|fe01b83e-0ddd-4775-b8c2-a56ea2c64337
+C:\Users\John_B\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|8689d980-ab7c-4766-a353-4da8693bd04e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|018c687b-dfb0-42b6-8dd5-508ff355716e
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|391d468b-54cd-4d1e-85d1-39b67430aa50
+C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|09d95419-2a6b-49c8-8c69-96afe5068e09
