@@ -2,7 +2,7 @@
 --	Conversion of Design01.v to vh2:
 --
 --	Cypress Semiconductor - WARP Version 6.3 IR 41
---	Sun Apr 12 13:06:21 2020
+--	Sun Apr 12 19:24:33 2020
 --
 
 USE cypress.cypress.all;
@@ -12,29 +12,29 @@ ATTRIBUTE part_name of top_RTL:TYPE IS "cpsoc3";
 END top_RTL;
 --------------------------------------------------------
 ARCHITECTURE R_T_L OF top_RTL IS
-SIGNAL tmpOE__Pin_1_net_3 : bit;
-SIGNAL tmpOE__Pin_1_net_2 : bit;
-SIGNAL tmpOE__Pin_1_net_1 : bit;
-SIGNAL tmpOE__Pin_1_net_0 : bit;
+SIGNAL tmpOE__LED_net_3 : bit;
+SIGNAL tmpOE__LED_net_2 : bit;
+SIGNAL tmpOE__LED_net_1 : bit;
+SIGNAL tmpOE__LED_net_0 : bit;
 SIGNAL zero : bit;
-SIGNAL tmpFB_3__Pin_1_net_3 : bit;
-SIGNAL tmpFB_3__Pin_1_net_2 : bit;
-SIGNAL tmpFB_3__Pin_1_net_1 : bit;
-SIGNAL tmpFB_3__Pin_1_net_0 : bit;
-SIGNAL tmpIO_3__Pin_1_net_3 : bit;
-SIGNAL tmpIO_3__Pin_1_net_2 : bit;
-SIGNAL tmpIO_3__Pin_1_net_1 : bit;
-SIGNAL tmpIO_3__Pin_1_net_0 : bit;
-TERMINAL tmpSIOVREF__Pin_1_net_0 : bit;
+SIGNAL tmpFB_3__LED_net_3 : bit;
+SIGNAL tmpFB_3__LED_net_2 : bit;
+SIGNAL tmpFB_3__LED_net_1 : bit;
+SIGNAL tmpFB_3__LED_net_0 : bit;
+SIGNAL tmpIO_3__LED_net_3 : bit;
+SIGNAL tmpIO_3__LED_net_2 : bit;
+SIGNAL tmpIO_3__LED_net_1 : bit;
+SIGNAL tmpIO_3__LED_net_0 : bit;
+TERMINAL tmpSIOVREF__LED_net_0 : bit;
 SIGNAL one : bit;
-SIGNAL tmpINTERRUPT_0__Pin_1_net_0 : bit;
+SIGNAL tmpINTERRUPT_0__LED_net_0 : bit;
 BEGIN
 
 zero <=  ('0') ;
 
-tmpOE__Pin_1_net_3 <=  ('1') ;
+tmpOE__LED_net_3 <=  ('1') ;
 
-Pin_1:cy_psoc3_pins_v1_10
+LED:cy_psoc3_pins_v1_10
 	GENERIC MAP(id=>"e851a3b9-efb8-48be-bbb8-b303b216c393",
 		drive_mode=>"110110110110",
 		ibuf_enabled=>"1111",
@@ -90,19 +90,19 @@ Pin_1:cy_psoc3_pins_v1_10
 		ovt_slew_control=>"00000000",
 		ovt_hyst_trim=>"0000",
 		input_buffer_sel=>"00000000")
-	PORT MAP(oe=>(tmpOE__Pin_1_net_3, tmpOE__Pin_1_net_3, tmpOE__Pin_1_net_3, tmpOE__Pin_1_net_3),
+	PORT MAP(oe=>(tmpOE__LED_net_3, tmpOE__LED_net_3, tmpOE__LED_net_3, tmpOE__LED_net_3),
 		y=>(zero, zero, zero, zero),
-		fb=>(tmpFB_3__Pin_1_net_3, tmpFB_3__Pin_1_net_2, tmpFB_3__Pin_1_net_1, tmpFB_3__Pin_1_net_0),
+		fb=>(tmpFB_3__LED_net_3, tmpFB_3__LED_net_2, tmpFB_3__LED_net_1, tmpFB_3__LED_net_0),
 		analog=>(open, open, open, open),
-		io=>(tmpIO_3__Pin_1_net_3, tmpIO_3__Pin_1_net_2, tmpIO_3__Pin_1_net_1, tmpIO_3__Pin_1_net_0),
-		siovref=>(tmpSIOVREF__Pin_1_net_0),
+		io=>(tmpIO_3__LED_net_3, tmpIO_3__LED_net_2, tmpIO_3__LED_net_1, tmpIO_3__LED_net_0),
+		siovref=>(tmpSIOVREF__LED_net_0),
 		annotation=>(open, open, open, open),
 		in_clock=>zero,
-		in_clock_en=>tmpOE__Pin_1_net_3,
+		in_clock_en=>tmpOE__LED_net_3,
 		in_reset=>zero,
 		out_clock=>zero,
-		out_clock_en=>tmpOE__Pin_1_net_3,
+		out_clock_en=>tmpOE__LED_net_3,
 		out_reset=>zero,
-		interrupt=>tmpINTERRUPT_0__Pin_1_net_0);
+		interrupt=>tmpINTERRUPT_0__LED_net_0);
 
 END R_T_L;

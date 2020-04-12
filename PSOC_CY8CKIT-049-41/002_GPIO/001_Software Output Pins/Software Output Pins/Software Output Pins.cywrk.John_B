@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="Software Output Pins\Design01\TopDesign">
 <ExpandedNodeIds>
 <v>Software Output Pins</v>
 <v>Software Output Pins\Design01</v>
@@ -54,7 +54,7 @@
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\cy_boot</v>
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\cy_lfclk</v>
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\Em_EEPROM_Dynamic</v>
-<v>Software Output Pins\Design01\Generated_Source\PSoC4\Pin_1</v>
+<v>Software Output Pins\Design01\Generated_Source\PSoC4\LED</v>
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\cycodeshareexport.ld</v>
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\cycodeshareimport.ld</v>
 <v>Software Output Pins\Design01\Generated_Source\PSoC4\cycodeshareimport.scat</v>
@@ -105,9 +105,9 @@
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
-<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.elf</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.hex</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.map</v>
@@ -132,9 +132,9 @@
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED.lst</v>
+<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\LED_PM.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\main.lst</v>
-<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1.lst</v>
-<v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Listing Files\Pin_1_PM.lst</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.elf</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.hex</v>
 <v>Software Output Pins\Design01\CortexM0\ARM_GCC_541\Debug\Design01.map</v>
@@ -178,6 +178,8 @@
 <Unloaded />
 <OpenDocs>
 <name v=".\Design01.cydsn\TopDesign\TopDesign.cysch" />
+<name v=".\Design01.cydsn\Design01.cydwr" />
+<name v=".\Design01.cydsn\main.c" />
 </OpenDocs>
 <OpenDocsLayout><![CDATA[<?xml version="1.0"?><!--
 
@@ -185,7 +187,7 @@
   Copyright (c) 2001-2016 Actipro Software LLC.  All rights reserved.
   http://www.actiprosoftware.com
 
---><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1323, 751" SelectedTabbedMdiWindow="652bf3b3-3b20-4cf8-a9cb-66281c3a1ac6"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62657597-3197-4797-bb25-2563127224ad" /><DocumentWindow Key="D:\GIT\PSOC_CY8CKIT-049-41\002_GPIO\001_Software Output Pins\Software Output Pins\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="652bf3b3-3b20-4cf8-a9cb-66281c3a1ac6" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
+--><DocumentLayout Version="1.0"><LayoutData><TabbedMdiRootContainer Orientation="Horizontal"><TabbedMdiContainer Size="1271, 751" SelectedTabbedMdiWindow="6d02df64-3009-4643-9909-3a09fee2f605"><ToolWindow Key="Start Page:bd4649ab-da6b-4d04-a663-c722b8bf99db:Start Page" Guid="62657597-3197-4797-bb25-2563127224ad" /><DocumentWindow Key="D:\GIT\PSOC_CY8CKIT-049-41\002_GPIO\001_Software Output Pins\Software Output Pins\Design01.cydsn\TopDesign\TopDesign.cysch" Guid="652bf3b3-3b20-4cf8-a9cb-66281c3a1ac6" /><DocumentWindow Key="D:\GIT\PSOC_CY8CKIT-049-41\002_GPIO\001_Software Output Pins\Software Output Pins\Design01.cydsn\Design01.cydwr" Guid="698709a0-cdfa-4503-be25-3cdaa3d02d76" /><DocumentWindow Key="D:\GIT\PSOC_CY8CKIT-049-41\002_GPIO\001_Software Output Pins\Software Output Pins\Design01.cydsn\main.c" Guid="6d02df64-3009-4643-9909-3a09fee2f605" /></TabbedMdiContainer></TabbedMdiRootContainer><FloatingContainers /></LayoutData></DocumentLayout>]]></OpenDocsLayout>
 <config v="" />
 <AutoUpdate v="true" />
 </CyGuid_843a90a4-0c4b-4e44-991d-05e7fb117a21>
