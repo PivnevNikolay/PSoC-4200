@@ -1,5 +1,4 @@
 ## CY8CKIT-049-41X Software Output Pins  
----
   ![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-41/002_GPIO/001_Software%20Output%20Pins/FOTO_Project/005.jpg "")  
 ### Создаём свой первый проект   
  1. File --> New --> Project  
