@@ -28,23 +28,23 @@ int main(void)
     for (uint8_t z =0;z<5;z++){    
          switch(z){      
     case 0:
-        LED_Write(0xF);
+        LED_Write(0xF);//1111
         CyDelay(800);
         break;
     case 1:
-        LED_Write(0xE);
+        LED_Write(0xE);//1110
         CyDelay(800);
         break;
     case 2:
-        LED_Write(0xC);
+        LED_Write(0xC);//1100
         CyDelay(800);
         break;
     case 3:
-        LED_Write(0x8);
+        LED_Write(0x8);//1000
         CyDelay(800);
         break;
     case 4:
-        LED_Write(0x0);
+        LED_Write(0x0);//0000
         CyDelay(800);
         break;
         }

@@ -1,8 +1,0 @@
-D:\GIT\PSOC_CY8CKIT-049-41\002_GPIO\001_Software Output Pins\Software Output Pins\Design01.cydsn\Design01.cyprj|38dbe8e6-8ce4-4282-8561-03ec48529611
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|46218789-40b2-4564-aa7a-312ab89608b7
-C:\Users\John_B\Documents\PSoC Creator\4.3\Downloads ( 4.3).cylib\Downloads ( 4.3).cyprj|f28afcf6-672a-4dab-83dd-9be1f77617d6
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|2a73f37a-4f5e-47da-8c23-09f3babe337d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4e65158a-6f0d-46c2-b885-8c7caf77d1bc
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|511523f2-dd5a-4431-9db9-2fe288a19855
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\dev\psoc4\PSoC4AnalogDevice\psoc4arch.cydsn\psoc4arch.cyprj|d7b243d7-e110-4ca2-811f-26f26c8ce63d
-C:\Program Files (x86)\Cypress\PSoC Creator\4.3\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|261d09fa-5c3d-48ce-819a-3c21c425c9a2
