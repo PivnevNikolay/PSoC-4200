@@ -1,10 +1,9 @@
-## CY8CKIT-049-41X  
+### CY8CKIT-049-41X  
 
 [PSoC® 4 CY8CKIT-049 4xxx Prototyping Kits](https://www.cypress.com/documentation/development-kitsboards/psoc-4-cy8ckit-049-4xxx-prototyping-kits)
 
 Это недорогая платформа для желающих попробовать разрабатывать приложения с использованием семейства устройств PSoC ® 4. 
-Данный набор поддерживает подключение к ПК через контроллер Cypress USB-Serial, который также используется для загрузки устройства PSoC 4 через UART с помощью инструмента Bootloader Software Host.  
-Есть возможность подключить Kitprog on-board Programmer / Debugger.
+Данный набор поддерживает подключение к ПК через контроллер Cypress USB-Serial, который также используется для загрузки устройства PSoC 4 через UART с помощью инструмента Bootloader Software Host. Eсть возможность подключить Kitprog on-board Programmer / Debugger.  
 
 ![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/picture/001.jpg "CY8CKIT-049-41X")  
 
@@ -22,9 +21,11 @@ CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ [C
 | SRAM (KB)     | 4                  |
 | Series        | PSoC 4100          |  
 
-![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/picture/002.jpg "CY8CKIT-049-42X")    
+![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/picture/002.jpg "CY8CKIT-049-42X")  
 
-Y8CKIT-049-42X поддерживает Arm ® 32-битный Cortex-M0 ™ [CY8C4245AXI-483](https://www.cypress.com/part/cy8c4245axi-483)   
+### CY8CKIT-049-42X    
+
+CY8CKIT-049-42X поддерживает Arm ® 32-битный Cortex-M0 ™ [CY8C4245AXI-483](https://www.cypress.com/part/cy8c4245axi-483)   
 
 |CY8C4125AXI-483|   Product Specs    |
 | ------------- |:------------------:|
