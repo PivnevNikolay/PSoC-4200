@@ -5,7 +5,9 @@
 Это недорогая платформа для желающих попробовать разрабатывать приложения с использованием семейства устройств PSoC ® 4. 
 Данный набор поддерживает подключение к ПК через контроллер Cypress USB-Serial, который также используется для загрузки устройства PSoC 4 через UART с помощью инструмента Bootloader Software Host. Eсть возможность подключить Kitprog on-board Programmer / Debugger.  
 
+
 ![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/picture/001.jpg "CY8CKIT-049-41X")  
+
 
 CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ [CY8C4125AXI-483](https://www.cypress.com/part/cy8c4125axi-483)  
 
@@ -19,11 +21,14 @@ CY8CKIT-049-41X поддерживает Arm ® 32-битный Cortex-M0 ™ [C
 | GPIOs         | 36                 |
 | UDB           | 0                  |
 | SRAM (KB)     | 4                  |
-| Series        | PSoC 4100          |  
+| Series        | PSoC 4100          |   
+
+
+### CY8CKIT-049-42X    
+
 
 ![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/picture/002.jpg "CY8CKIT-049-42X")  
 
-### CY8CKIT-049-42X    
 
 CY8CKIT-049-42X поддерживает Arm ® 32-битный Cortex-M0 ™ [CY8C4245AXI-483](https://www.cypress.com/part/cy8c4245axi-483)   
 
