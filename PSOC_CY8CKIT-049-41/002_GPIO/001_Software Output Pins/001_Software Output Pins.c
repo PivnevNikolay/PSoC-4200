@@ -1,21 +1,9 @@
-/* ========================================
- *
- * Copyright YOUR COMPANY, THE YEAR
- * All Rights Reserved
- * UNPUBLISHED, LICENSED SOFTWARE.
- *
- * CONFIDENTIAL AND PROPRIETARY INFORMATION
- * WHICH IS THE PROPERTY OF your company.
- *
- * ========================================
-*/
+//01.05.2020
 #include "project.h"
 //int led[5]={0xF,0xE,0xC,0x8,0x0};
 int main(void)
 {
     CyGlobalIntEnable; /* Enable global interrupts. */
-
-    /* Place your initialization/startup code here (e.g. MyInst_Start()) */
 
     for(;;){
 //----------используем_массив_led[5]----------------//        
@@ -52,6 +40,4 @@ int main(void)
 //---------------------------------------------------//
 }
 }
-
-
-/* [] END OF FILE */
+/*------------ END OF FILE---------------------------*/
