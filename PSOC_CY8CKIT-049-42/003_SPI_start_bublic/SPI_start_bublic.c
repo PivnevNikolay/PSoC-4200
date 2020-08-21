@@ -19,6 +19,10 @@ http://publicatorbar.ru/2017/12/21/arduino-multi-function-shield/
 *********************************************
 Arduino: Сдвиговый регистр 74НС595 или размножаем/экономим выходы платы -->
 http://codius.ru/articles/Arduino_Сдвиговый_регистр_74НС595_или_размножаем_экономим_выходы_платы
+*********************************************
+LatchPin  P0[0] --> pin 4 AMF_Shiled(защелка).
+ClockPin  P0[1] --> pin 7 AMF_Shiled(Clock).
+DataPin   P0[2] --> pin 8 AMF_Shiled(Data).
 */
 #include "project.h"
 //#define HIGH  1u
