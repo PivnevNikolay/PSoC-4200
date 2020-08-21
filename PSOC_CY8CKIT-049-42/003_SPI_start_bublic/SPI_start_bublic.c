@@ -1,5 +1,6 @@
 /**
  20.08.2020.
+*********************************************
 настройки SPI...
 Mode CPHA = 1, CPOL = 1
 Data Lines: MOSI+MISO
@@ -12,6 +13,12 @@ Counter mode: UP
 Interrupt: On terminal count
 Period: 65535 ...!!!
 Базовые настройки для Clock_1 и isr_1
+*********************************************
+ARDUINO MULTI-FUNCTION SHIELD -->
+http://publicatorbar.ru/2017/12/21/arduino-multi-function-shield/
+*********************************************
+Arduino: Сдвиговый регистр 74НС595 или размножаем/экономим выходы платы -->
+http://codius.ru/articles/Arduino_Сдвиговый_регистр_74НС595_или_размножаем_экономим_выходы_платы
 */
 #include "project.h"
 //#define HIGH  1u
