@@ -1,5 +1,5 @@
 
-## CY8CKIT-049-41X Software Output Pins  
+## PWM   
  
 после создания проекта на вкладке  TopDesign.cysch в строке поиска вводим PWM --> выбираем PWM(TCPWM mode)[v 2.10]  
 В строке поиска вводим Clock --> выбираем  Clock [v2.20] 
