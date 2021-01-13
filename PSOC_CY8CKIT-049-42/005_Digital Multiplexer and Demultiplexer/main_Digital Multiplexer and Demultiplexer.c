@@ -3,29 +3,29 @@
 
 uint8_t flag = 0;
 uint8_t status = 0;
-//-----обработчик первого прерывания-----//
+//-----РѕР±СЂР°Р±РѕС‚С‡РёРє РїРµСЂРІРѕРіРѕ РїСЂРµСЂС‹РІР°РЅРёСЏ-----//
 CY_ISR(input_button_Handler){  
     flag ++; 
     if(flag>1){
         flag = 0;
     }
-    Pin_1_ClearInterrupt();// данный момент важен используется не isr_ClearPending();
+    Pin_1_ClearInterrupt();// РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ РІР°Р¶РµРЅ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РЅРµ isr_ClearPending();
 }
 //---------------------------------------//
-//-----Обработчик второго прерывания-----//
+//-----РћР±СЂР°Р±РѕС‚С‡РёРє РІС‚РѕСЂРѕРіРѕ РїСЂРµСЂС‹РІР°РЅРёСЏ-----//
 CY_ISR(input_button_1_Handler){  
     status ++; 
     if(status>3){
         status = 0;
     }
-    Pin_2_ClearInterrupt();// данный момент важен используется не isr_1_ClearPending();
+    Pin_2_ClearInterrupt();// РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚ РІР°Р¶РµРЅ РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РЅРµ isr_1_ClearPending();
 }
 //---------------------------------------//
 int main(void)
 {
     CyGlobalIntEnable;
-    TCPWM_1_Start();//Старт первого таймера 20kHz
-    TCPWM_2_Start();//Старт второго таймера на 1MHz
+    TCPWM_1_Start();//РЎС‚Р°СЂС‚ РїРµСЂРІРѕРіРѕ С‚Р°Р№РјРµСЂР° 20kHz
+    TCPWM_2_Start();//РЎС‚Р°СЂС‚ РІС‚РѕСЂРѕРіРѕ С‚Р°Р№РјРµСЂР° РЅР° 1MHz
     isr_StartEx(input_button_Handler);
     isr_1_StartEx(input_button_1_Handler);
     
