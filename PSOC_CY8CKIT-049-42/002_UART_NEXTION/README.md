@@ -4,7 +4,7 @@
  
 * Создаём проект для экрана.  
 
-![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/002_UART_NEXTION/FOTO/n_01.jpg "")  
+![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/002_UART_NEXTION/photos/n_01.jpg "")  
 
 В проекте две кнопки LED_ON(b0) и LED_OFF(b1), Text(t0), Scroleng text(g0).  
 * Код для кнопки LED_ON(b0)...  

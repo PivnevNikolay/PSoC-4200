@@ -5,13 +5,13 @@
 
 Схема из статьи .... 
 
-![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/Photo/E_001.jpg "")
+![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/photos/E_001.jpg "")
  
 Я решил попробую "синтезировать" эту схему при помощи микроконтроллера CY8C4245AXI-483. Поворачивая ручку энкодера изменяя значение на цифровом сигментном индикаторе от 0 до 9, вращая в разные стороны увеличивая либо уменьшая значение индикатора.  
 В наличии у меня плата энкодера от китайского производителя HL-99. И сходя из этого я внес изменения в схему ... Ниже схема с изменениями.  
 
-![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/Photo/E_004.jpg "")  
+![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/photos/E_004.jpg "")  
 
 TopDesign.cysch ... (схема из графических примитивов в PSOC 4.4) 
  
-![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/Photo/E_002.jpg "")  
+![alt-текст](https://github.com/PivnevNikolay/PSOC_CY8CKIT-049-41/blob/master/PSOC_CY8CKIT-049-42/004_Encoder/photos/E_002.jpg "")  
